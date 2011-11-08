@@ -1,19 +1,4 @@
-Global setup:
-Set up git
-git config --global user.name "Kimi"
-git config --global user.email jianxieshui@gmail.com
-     
-Next steps:
-mkdir Typecho-SaeUpload
-cd Typecho-SaeUpload
-git init
-touch README
-git add README
-git commit -m 'first commit'
-git remote add origin git@github.com:KimiChen/Typecho-SaeUpload.git
-git push -u origin master
-         
-Existing Git Repo?
-cd existing_git_repo
-git remote add origin git@github.com:KimiChen/Typecho-SaeUpload.git
-git push -u origin master
+1,下载插件，将SaeUpload目录放置在Typecho根目录下的usr/plugins/目录中
+2,在控制台=>插件管理中启用SaeUpload插件，并在Sina App Engine控制面中新增Storage的Domain名称为typechoupload，同样的设置SaeUpload插件中的Domain名称为typechoupload即可
+
+说明地址：http://www.ccvita.com/491.html
