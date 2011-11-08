@@ -1,6 +1,6 @@
 Global setup:
 Set up git
-git config --global user.name "陈陈"
+git config --global user.name "Kimi"
 git config --global user.email jianxieshui@gmail.com
      
 Next steps:
